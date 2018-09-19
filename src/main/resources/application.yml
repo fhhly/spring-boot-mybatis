@@ -1,0 +1,15 @@
+server:
+  port: 9090
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
+  type-aliases-package: com.fhh.Entity
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: fhh
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 139.199.160.101
+    port: 6379
+    password: redis
